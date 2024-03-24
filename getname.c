@@ -7,12 +7,11 @@
 #include <sys/types.h>
 #include "stdlib.h"
 #include "signal.h"
-
-
 void ck(int a)
 {
     printf("lls");
 }
+
 int main(int argc,char **argv)
 {
     signal(SIGINT,ck);
