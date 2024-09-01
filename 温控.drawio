@@ -1,9 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="gavOTutIVZLHh2nSTRqv">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-2" value="线程1开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-3" target="DkxGOCBB9ThZ3Ds0km_o-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-3" value="线程2开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-5" target="DkxGOCBB9ThZ3Ds0km_o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-5" value="读取传感器数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-6" value="卡尔曼滤波" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-8" value="读取卡尔曼滤波算出的数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-10" target="DkxGOCBB9ThZ3Ds0km_o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-10" value="读取编码器数据，液体温度数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-11" target="DkxGOCBB9ThZ3Ds0km_o-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-11" value="ADRC控制算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.508;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-2" target="DkxGOCBB9ThZ3Ds0km_o-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-15" value="while(1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-20" target="DkxGOCBB9ThZ3Ds0km_o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-20" value="线程3开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-21" target="DkxGOCBB9ThZ3Ds0km_o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-21" value="while（1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-22" value="一次while循环后唤醒线程3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-23" value="socket发送数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-27" value="wait()等待唤醒" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-29" target="DkxGOCBB9ThZ3Ds0km_o-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-29" value="信号处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-34" value="设置故障标志位为1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-36" value="判断故障标志位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-37" target="DkxGOCBB9ThZ3Ds0km_o-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-37" value="相传感器写入关闭指令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.475;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-36" target="DkxGOCBB9ThZ3Ds0km_o-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-41" target="DkxGOCBB9ThZ3Ds0km_o-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-41" value="将电机PWM值设为0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-44" target="DkxGOCBB9ThZ3Ds0km_o-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-44" value="水泵写入PMW值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-48" value="跳出循环结束线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-51" value="跳出循环结束线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-55" target="DkxGOCBB9ThZ3Ds0km_o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DkxGOCBB9ThZ3Ds0km_o-55" target="DkxGOCBB9ThZ3Ds0km_o-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkxGOCBB9ThZ3Ds0km_o-55" value="判断故障标志位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
