@@ -7,55 +7,55 @@
         <mxCell id="8wG0d53G8o30gV3stpHx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-2" target="8wG0d53G8o30gV3stpHx-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-2" value="任务pid开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-2" value="任务pid开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-3" target="8wG0d53G8o30gV3stpHx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-3" value="while（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-3" value="while（1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-6" target="8wG0d53G8o30gV3stpHx-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-6" value="读取定位系统数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-6" value="读取定位系统数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-7" target="8wG0d53G8o30gV3stpHx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-7" value="定位系统" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-7" value="定位系统" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-9" target="8wG0d53G8o30gV3stpHx-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-9" value="计算到巡航点的(x,y)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-9" value="计算到巡航点的(x,y)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-10" target="8wG0d53G8o30gV3stpHx-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-10" value="设定巡航点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-10" value="设定巡航点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-14" target="8wG0d53G8o30gV3stpHx-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-14" value="任务pid1开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-14" value="任务pid1开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-15" target="8wG0d53G8o30gV3stpHx-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-15" value="初始化参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-15" value="初始化参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-16" target="8wG0d53G8o30gV3stpHx-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-16" value="while(1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-16" value="while(1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-18" target="8wG0d53G8o30gV3stpHx-26">
@@ -64,7 +64,7 @@
         <mxCell id="8wG0d53G8o30gV3stpHx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-18" target="8wG0d53G8o30gV3stpHx-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-18" value="读取人工操作数据判断是否开始开启人工操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-18" value="读取人工操作数据判断是否开始开启人工操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-24" target="8wG0d53G8o30gV3stpHx-18">
@@ -75,19 +75,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-24" value="人工操作的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-24" value="人工操作的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="810" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-26" value="将任务pid挂起" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-26" value="将任务pid挂起" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-31" value="将任务pid唤醒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-31" value="将任务pid唤醒" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-34" target="8wG0d53G8o30gV3stpHx-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-34" value="将人工操作的数据转换为机器人和机械臂的运行参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-34" value="将人工操作的数据转换为机器人和机械臂的运行参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="707" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-26" target="8wG0d53G8o30gV3stpHx-34">
@@ -96,34 +96,34 @@
         <mxCell id="8wG0d53G8o30gV3stpHx-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-36" target="8wG0d53G8o30gV3stpHx-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-36" value="得到目标物体距离图像中心的(x,y)，以及仪表表盘指针等信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-36" value="得到目标物体距离图像中心的(x,y)，以及仪表表盘指针等信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-37" target="8wG0d53G8o30gV3stpHx-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-37" value="&lt;span style=&quot;font-size: 14pt; font-family: 等线;&quot;&gt;Jeson&lt;/span&gt;&lt;span style=&quot;font-size: 14pt; font-family: 等线;&quot;&gt; nano开发板&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-37" value="&lt;span style=&quot;font-size: 14pt; font-family: 等线;&quot;&gt;Jeson&lt;/span&gt;&lt;span style=&quot;font-size: 14pt; font-family: 等线;&quot;&gt; nano开发板&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-40" target="8wG0d53G8o30gV3stpHx-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-40" value="得到物体到机械臂根部的距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-40" value="得到物体到机械臂根部的距离" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-41" target="8wG0d53G8o30gV3stpHx-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-41" value="激光" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-41" value="激光" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-44" target="8wG0d53G8o30gV3stpHx-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-44" value="通过上述几个数据算出机器人水平到位置x，前进到位置y&lt;span style=&quot;background-color: initial;&quot;&gt;云台转向角度yaw，机械臂角度（yaw1,yaw2）,云台抬升高度和水平移动位置（d,z）&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-44" value="通过上述几个数据算出机器人水平到位置x，前进到位置y&lt;span style=&quot;background-color: initial;&quot;&gt;云台转向角度yaw，机械臂角度（yaw1,yaw2）,云台抬升高度和水平移动位置（d,z）&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="810" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-49" value="使用全部变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-49" value="使用全部变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wG0d53G8o30gV3stpHx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.321;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-44" target="8wG0d53G8o30gV3stpHx-44">
@@ -132,10 +132,10 @@
         <mxCell id="8wG0d53G8o30gV3stpHx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wG0d53G8o30gV3stpHx-52" target="8wG0d53G8o30gV3stpHx-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-52" value="通过上述几个数据算出机器人水平到位置x，前进到位置y&lt;span style=&quot;background-color: initial;&quot;&gt;云台转向角度yaw，机械臂角度（yaw1,yaw2）,云台抬升高度和水平移动位置（d,z）&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-52" value="通过上述几个数据算出机器人水平到位置x，前进到位置y&lt;span style=&quot;background-color: initial;&quot;&gt;云台转向角度yaw，机械臂角度（yaw1,yaw2）,云台抬升高度和水平移动位置（d,z）&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="687" y="690" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8wG0d53G8o30gV3stpHx-54" value="使用全部变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wG0d53G8o30gV3stpHx-54" value="使用全部变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="707" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
